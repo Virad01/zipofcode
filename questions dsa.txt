@@ -1,0 +1,92 @@
+                                                      Questions to search
+
+
+
+//*q means value of address pointed by q 
+//how many double pointer we can create
+//spiral matrix
+//wayprint
+//find the answer why modulo 10^8+7??????
+//formulas------(a+b)%m= (a%m + b%m+m)%m 
+// formulas------(a-b)%m= (a%m - b%m+m)%m  m plus negative bachane ke liye kara hai
+//formulas---(a*b)%m= (a%m) * (b%m)
+
+//formulas--- KING OF THE SHOW
+//////////// (a/b)%m--------to read (codeforces article  modulo arithmetic)
+
+//pigeonhole principle
+//catelon number 
+
+
+
+
+
+
+///fast exponentiations 
+/GCD or HCf 
+//Euclids Algorithms ----gcd(a,b)= gcd(a-b,b) where a>b 
+//lcm(a,b)*gcd(a,b)=a*b ----yaad rakna hai 
+//co-prime--no common factor
+//optimization-----sieve of eratosthenes
+
+//modulus operator is time consuming 
+
+//for even number finding we use n&1==0 instead of n%2==0 as the bit level of operations are much more faster than modulus operator
+// {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{To Do List}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+// {{{{{even number  using  bit level operations}}}}}
+// {{{{{{{{Bitwise operations}}}}}}}}
+//differnce between arr[10] and vector<int> arr[];
+//segmented sieve 
+//HP GP AP
+//sieve of eratosthenese
+//i*i<n wala concept 	
+
+//anagram question-----veruy important question 
+//check whether string a is present in string b or not 
+
+
+
+//mimimum number of flips---gfg( goldmansache )
+
+//Diagonal sum---question to practice 
+
+//logic 
+//if the given string  is = "0010"
+//
+
+
+* 
+
+sawaal --- agar pointer already presemnt hai to reference variablr ki need kyun hai???
+pointer heap me kyun nii banate hai??
+
+
+answer----
+
+what is refernece variable?
+
+address pointer me store hota hai
+
+to create an array dynamically  
+
+int * arr = new int[n]
+
+*/
+//Pointers-1        18may
+
+/*
+
+if we cout<<arr; we will get a hexadecimal value which shows arr stores hexadecimal address not a base  address 
+we can say arr is also a pointer 
+
+cout<<arr and cout<<&arr[0] and cout<<&arr  will give the same output  that is a hexadecimal address 
+
+
+1 pointer uses 8 byte 
+
+
+
+*/
+
+
+//  i[arr]= *(i+arr) is same as  arr[i] = * (arr+i)  

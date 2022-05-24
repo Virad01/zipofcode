@@ -29,7 +29,8 @@ void transpose(int arr[3][3],int n,int m)
 
 
 }
-/*
+*/
+
 
 
 //spiral matrix
@@ -40,10 +41,13 @@ using namespace std;
 
 int main(){
 
-    while(1){
-        cout<<"Slap Virad"<<endl;
-       
+    if(cout<<"Virad")
+    {
+
     }
-    break;
+    else
+    {
+        
+    }
     
 }
