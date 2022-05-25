@@ -90,3 +90,7 @@ cout<<arr and cout<<&arr[0] and cout<<&arr  will give the same output  that is a
 
 
 //  i[arr]= *(i+arr) is same as  arr[i] = * (arr+i)  
+
+
+
+https://stackoverflow.com/questions/8916656/why-is-arr-and-arr-the-same#:~:text=%26arr%20is%20an%20rvalue%20of,same%20result%20when%20printing%20them
