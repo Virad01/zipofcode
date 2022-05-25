@@ -1,15 +1,1 @@
-#include<iostream>
-using namespace std;
-
-int main(){
-
-    if(cout<<"Virad")
-    {
-
-    }
-    else
-    {
-        
-    }
-    
-}
+ // return factorial(n)*factorial(n-1);
