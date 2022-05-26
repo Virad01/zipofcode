@@ -3,6 +3,7 @@
 //optimized approach 1 using hashing 
 
 #include<bits/stdc++.h>
+#include<unordered_map>
 
 using namespace std;
 
@@ -11,14 +12,14 @@ int firstnre(int arr[],int n){
     for(int i=0;i<n;i++)
     mp[arr[i]]++;         // storing elememts in an array 
 
-    for(int i=0;i<n; i++){
+    for(int i=0;i<n; i++)
          if(mp[arr[i]]==1)
          
              return arr[i];
          
 
-         return -1;
-    }
+    return -1;
+    
 }
 
 int main() {
@@ -26,4 +27,5 @@ int main() {
    int n=5;
 
    cout<<firstnre(arr,n);
+   return 0;
 }
