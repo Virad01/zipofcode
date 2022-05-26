@@ -35,3 +35,8 @@ int main(){
 
 
 }
+
+
+
+//adobe amazon goldman sach ---------------------famous question 
+
