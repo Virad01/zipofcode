@@ -1,0 +1,21 @@
+Why do we need reference variables if we have pointers??
+
+Pointer is a variable that holds memory address of another variable. 
+Reference variable can be called as the  constant pointers that become de referenced implicitly.
+ when we access the refernce it means we are accessing the storage.
+
+
+
+so why do we need reference variable if we had pointers??????????????
+
+in pointers to access the values of actual variable we need explicitly derefernce the pointer variable by using "value at address" dereferncing operator( *).
+in refernce to access the value of the actual variable we do not need explicitly derefernce the reference variable, 
+they get derefernced automatically.
+
+
+
+
+to be continue .......................
+ 
+
+

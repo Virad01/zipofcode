@@ -1,0 +1,37 @@
+Public member functions in valarray class : 
+1. apply() :- This function applies the manipulation given in its arguments to all the valarray elements at
+ once and returns a new valarray with manipulated values.
+ 2. sum() :- This function returns the summation of all the elements of valarrays at once. 
+ 3. min() :- This function returns the smallest element of valarray. 
+ 4. max() :- This function returns the largest element of valarray. 
+ 5. shift() :- This function returns the new valarray after shifting elements by the number mentioned in its argument. If the number is positive, left-shift is applied, if number is negative, right-shift is applied. 
+ 6. cshift() :- This function returns the new valarray after circularly shifting(rotating) elements by the number mentioned in its argument.
+  If the number is positive, left-circular shift is applied, if number is negative, right-circular shift is applied. 
+  7. swap() :- This function swaps one valarray with other. 
+  
+  
+  
+  Partition operations :
+
+1. partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments.
+2. is_partitioned(beg, end, condition) :- This function returns boolean true if container is partitioned else returns false.
+3. stable_partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments in such a way that the relative order of the elements is preserved..
+4. partition_point(beg, end, condition) :- This function returns an iterator pointing to the partition point of container i.e. the first element in the partitioned range [beg,end) for which condition is not true. The container should already be partitioned for this function to work.
+5. partition_copy(beg, end, beg1, beg2, condition) :- This function copies the partitioned elements in the different containers mentioned in its arguments. It takes 5 arguments. Beginning and ending position of container, beginning position of new container where elements have to be copied (elements returning true for condition), beginning position of new container where other elements have to be copied (elements returning false for condition) and the condition. Resizing new containers is necessary for this function.
+1. all_of() This function operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
+
+2. any_of() This function checks for a given range if there’s even one element satisfying a given property mentioned in function. Returns true if at least one element satisfies the property else returns false. 
+3. none_of() This function returns true if none of elements satisfies the given condition else returns false. 
+4.  copy_n() copy_n() copies one array elements to new array. This type of copy creates a deep copy of 1. array. This function takes 3 arguments, source array name, size of array and the target array name. 
+2. iota() This function is used to assign continuous values to array. This function accepts 3    arguments, the array name, size, and the starting number. 
+3. sort(first_iterator, last_iterator) – To sort the given vector.
+4. sort(first_iterator, last_iterator, greater<int>()) – To sort the given container/vector in descending order.
+5. reverse(first_iterator, last_iterator) – To reverse a vector. ( if ascending -> descending  OR  if descending -> ascending)
+6. *max_element (first_iterator, last_iterator) – To find the maximum element of a vector.
+ 7. *min_element (first_iterator, last_iterator) – To find the minimum element of a vector.
+accumulate(first_iterator, last_iterator, initial value of sum) – Does the summation of vector elements
+6. count(first_iterator, last_iterator,x) – To count the occurrences of x in vector.
+7. find(first_iterator, last_iterator, x) – Returns an iterator to the first occurrence of x in vector and points to last address of vector ((name_of_vector).end()) if element is not present in vector.
+   8. binary_search(first_iterator, last_iterator, x) – Tests whether x exists in sorted vector or not.
+   9. lower_bound(first_iterator, last_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which         has a value not less than ‘x’.
+   10. upper_bound(first_iterator, last_iterator, x) – returns an iterator pointing to the first element in the range [first,last)                  which has a value greater than ‘x’.

@@ -1,0 +1,32 @@
+
+Binary to decimal ---
+--odd number ke end wali bit hamesha 1 rehti hai 
+--Binary operators and or xor 
+do same chizo ka xor hamesha 0 rehta hai 
+
+--Left shift operators--End me 0 add ho jata hai ek baar left shift karene same
+--right shift operators --end wala bit gayab hi ho jaata hai ek baar right karne se 
+
+<< left shift   1<<n = 2^n( aletenate of using power function)
+>> right shift
+
+--maximum numbers stored in a 32 bit is 2^32 -1
+
+--2^32 -1 karne par integer overflow ho jata hai....
+   @it can't store 32 bit integer as it is a signed integer (ek bit sign ke liye reserve rehte hai)
+   @for storing it in 32 bit integer we have to use unsigned integer(jo sirf positive number ko store karta hai)
+   @Unsigned (0-->2^0) int ka positive range double hota hai signed int ke comparison me..
+
+
+Operation in bits and about bits 
+
+*Set Bits==bit 1 hai ki nahi 
+*Unset bits=bit 0 hai ki nahi
+-------------------------------------------------------------------------------------------------------
+Conversion of binary to decimal****
+
+--odd Number ke end wali bit hamesha one rehti hai 
+--Agar hame check karna ho ki kisi bhi number ki  kisi bhi number ki ith bit set hai ki nahi to
+hum aisa number lenge 
+
+
