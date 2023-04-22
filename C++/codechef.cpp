@@ -1,29 +1,19 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include<bits/stc++.h>
+using namespace std ;
+class node {
+  public:
+  int data;
+  node*left;
+  node*right;
+}
+node* newNode(int data)
+{
+    node* Node = new node();
+    Node->data = data;
+    Node->left = NULL;
+    Node->right = NULL;
+    return (Node);
+}
+int main(){
 
-int main() {
-    int test;
-    cin >> test;
-  
-    while (test--) {
-          bool flag=false;
-        int size;
-        cin >> size;
-        int x=0,y=0;
-     for(int i=0;i<size;i++){
-        if(i=='U') y++;
-         if(i=='D') y--;
-          if(i=='L') x--;
-           if(i=='R') x++;
-
-           if(x==1 && y==1){
-            cout<<"YES"<<endl;
-            break;
-           }
-
-     }
-     cout<<"NO"<<endl;
-    }
-
-    return 0;
 }

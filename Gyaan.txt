@@ -1,0 +1,2 @@
+// we can also solve it with the property of BST that is in left side all the nodes have 
+ less value than there parents so in last level leftmost root have minimum value , if root is not empty
