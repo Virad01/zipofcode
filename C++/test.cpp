@@ -1,10 +1,18 @@
-class Solution { 
-public: 
-    int minimizeSum(vector<int>& nums) { 
-         
-        int n=nums.size(); 
-         
-        sort(nums.begin(),nums.end()); 
-        
-        return min({nums[n-1]-nums[0],nums[n-1]-nums[2],nums[n-3]-nums[0],nums[n-2]-nums[1]}); 
-         
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  int m,n;
+  cin>>m;
+  cin>>n;
+int sum=0;
+  for (int i=0;i<=m;i++){
+   if(m%i==0){
+    sum+=sum+i;
+   }
+   else{
+    return;
+   }
+  }
+  return 0;
+}

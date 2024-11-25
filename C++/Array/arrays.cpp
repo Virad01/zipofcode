@@ -286,7 +286,7 @@ int main()
 */ 
 
 
-// // // // // //kadens algorithm
+
 
 
 // // // // // // pro tip at least ek positive element hona chahitye 
